@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crypto Lock Vault</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🔐 Crypto Lock Vault</h1>
+
+<div class="card">
+
+<input type="number" id="amount"
+placeholder="Ether Amount">
+
+<input type="number" id="lockTime"
+placeholder="Lock Time (seconds)">
+
+<button onclick="deposit()">Deposit</button>
+
+<button onclick="withdraw()">Withdraw</button>
+
+<p id="status"></p>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
